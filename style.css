@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+#fondo{
+    width:300px;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -20;
+}
+#titulo{
+    color:white;
+    text-align: center;
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+}
+h1, p, ul, li, a{
+    color: white;
+    background-color: transparent;
+}
+#redes img{
+    margin: 20px;
+    background-color: transparent;
+}
+#redes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#menu{
+    display:flex;
+    justify-content: center;
+    margin: 20px;
+}
+#menu li{
+ list-style-type: none;
+ margin:10px;
+}
+#menu li a{
+ text-decoration: none;
+ padding:5px;
+ color:#a9a2a2;
+ font-size: 20px;
+ font-weight: bold;
+}
+#menu li a:hover{
+    opacity: 0.5;
+}
+main{
+    width:75%;
+    height: 2000px;
+    margin:auto;
+    border:1px solid white
+}
+h1{text-align: center;}
+#imagen_blog{    
+    text-align: center;
+}
+header{
+    position:sticky;
+    top:0;
+    background-color: gray;
+}
+#galeria{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+figure{
+    
+    padding:20px;
+    text-align: center;
+}
+figure img{
+    width:200px;
+    padding:10px;
+    box-shadow: 5px 5px 5px white;
+}
+figcaption{
+    padding:10px;
+    font-size: 30px;
+    color:blue;
+}
+#youtube, #vimeo, footer,#mivideo{
+    text-align: center;
+}
+#logo{
+    float:left;
+    padding:10px;
+}
+article{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+article h3{
+    font-size: 40px;
+}
+footer{
+    color: white;
+}
